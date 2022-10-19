@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="google" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 讓讓瀏覽器容易找到你的網站 -->
+    <meta name="robots" content="index,follow" />
+    <base target="_blank" href="" />
+    <!-- 描述自己的網站 -->
+    <meta name="description" content="" />
+    <title>JASON CHANG'S TODO LIST</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JASON CHANG'S TODO LIST</h1>
+    </header>
+    <form>
+      <input type="text" />
+      <input type="number" min="1" max="12" placeholder="M" required />
+      <input type="number" min="1" max="31" placeholder="D" required />
+      <button type="submit">ADD INTO LIST</button>
+    </form>
+
+    <br />
+    <br />
+
+    <div class="sort">
+      <button>SORT BY TIME</button>
+    </div>
+
+    <section></section>
+  </body>
+  <script src="./app.js"></script>
+</html>
